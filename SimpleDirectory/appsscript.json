@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "AdminDirectory",
+      "serviceId": "admin",
+      "version": "directory_v1"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/admin.directory.user",
+    "https://www.googleapis.com/auth/spreadsheets.currentonly"
+  ]
+}
